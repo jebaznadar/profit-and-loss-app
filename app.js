@@ -18,6 +18,7 @@ function calculateProfitAndLoss( initial, quantity ,current)
 {
     if(initial === 0 || quantity===0 || current===0){
         alert('Please fill out all Fields')
+        document.body.style.backgroundImage = "none"
     }
     if(current > initial){
       var  profit = (current - initial)*quantity ;

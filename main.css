@@ -71,3 +71,6 @@ footer{
     left: 0;
     right: 0;
 }
+alert{
+    background-color: red;
+}
