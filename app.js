@@ -16,9 +16,10 @@ button.addEventListener('click' , submitHandler)
 
 function calculateProfitAndLoss( initial, quantity ,current)
 {
-    if(initial === 0 || quantity===0 || current===0){
-        alert('Please fill out all Fields')
+    if(initial === 0 || quantity=== 0 || current=== 0){
         document.body.style.backgroundImage = "none"
+        alert('Please fill out all Fields')
+        
     }
     if(current > initial){
       var  profit = (current - initial)*quantity ;
